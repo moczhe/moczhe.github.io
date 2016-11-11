@@ -1,224 +1,345 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
   
-  <title>Winterreise</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
   
   
   
   
-  <meta property="og:type" content="website">
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Winterreise" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta property="og:type" content="website">
 <meta property="og:title" content="Winterreise">
 <meta property="og:url" content="http://yoursite.com/page/10/index.html">
 <meta property="og:site_name" content="Winterreise">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Winterreise">
-  
-    <link rel="alternate" href="/atom.xml" title="Winterreise" type="application/atom+xml">
-  
-  <link rel="icon" href="/css/images/avatar.jpg">
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-  <style type="text/css">
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/9749f0/00000000000000000001008f/27/l?subset_id=2&fvd=n5) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/90cf9f/000000000000000000010091/27/l?subset_id=2&fvd=n7) format("woff2");font-weight:500;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/8a5494/000000000000000000013365/27/l?subset_id=2&fvd=n4) format("woff2");font-weight:lighter;font-style:normal;}
-    @font-face{font-family:futura-pt;src:url(https://use.typekit.net/af/d337d8/000000000000000000010095/27/l?subset_id=2&fvd=i4) format("woff2");font-weight:400;font-style:italic;}</style>
-  <link rel="stylesheet" href="/css/style.css">
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.css" >
 
-  
-    <link rel="stylesheet" href="/css/home.css" >
-  
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
 
-  
 
-  
 
+  <link rel="canonical" href="http://yoursite.com/page/10/"/>
+
+
+
+
+
+  <title> Winterreise </title>
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
+
   
-    <header id="header">
-  <!-- 
-    <div id="banner"></div>
-    <div id="header-outer" class="outer">
-      <div id="header-title" class="inner">
-        <h1 id="logo-wrap">
-          <a href="/" id="logo">Winterreise</a>
-        </h1>
-        
-          <h2 id="subtitle-wrap">
-            <a href="/" id="subtitle">We too are studust.</a>
-          </h2>
-        
-      </div>
-      <div id="header-inner" class="inner">
-        <nav id="main-nav">
-          <a id="main-nav-toggle" class="nav-icon"></a>
-          
-            <a class="main-nav-link" href="/">Home</a>
-          
-            <a class="main-nav-link" href="/archives">Archives</a>
-          
-            <a class="main-nav-link" href="/categories">Categorías</a>
-          
-            <a class="main-nav-link" href="/tags">Tags</a>
-          
-            <a class="main-nav-link" href="/about">About</a>
-          
-        </nav>
-        <nav id="sub-nav">
-          
-            <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS"></a>
-          
-          <a id="nav-search-btn" class="nav-icon" title="Buscar"></a>
-        </nav>
-        <div id="search-form-wrap">
-          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-        </div>
-      </div>
-    </div>
-  -->
+
+
+
+
+
+
+
 
 
 
   
-    <div id="intrologo" class="intro-logo" style="background-position:center; background-repeat:no-repeat; background-image: url(/css/images/home-bg.jpg); background-size: auto 100%;">
+  
+    
   
 
-    <canvas width="100%" height="100%"></canvas>
-    <script>
-      var c = document.getElementsByTagName('canvas')[0],
-          x = c.getContext('2d'),
-          w = window.innerWidth,
-          h = window.innerHeight,
-          pr = window.devicePixelRatio || 1,
-          f = 90,
-          q,
-          m = Math,
-          r = 0,
-          u = m.PI*2,
-          v = m.cos,
-          z = m.random
-      c.width = w*pr
-      c.height = h*pr
-      x.scale(pr, pr)
-      x.globalAlpha = 0.6
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
 
-      
-    </script>
-    
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
 
-    
-      <div id="homelogo" class="homelogo" style="background: rgba(255,255,255,1);"> 
-    
-
-        
-          <div class="homelogoback"  style="border: 1px solid #404040;" >
-            <h1><a href="#content" id="logo">Winterreise</a></h1>
-            <h3>null</h3>
-            <h5>Cz Mo</h5>
-            <!-- <p><a href="https://github.com/iTimeTraveler" target="_blank">Github</a></p> -->
-          </div>
-        
-    
-    </div>
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Winterreise</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
   </div>
+  <p class="site-subtitle">We too are studust.</p>
+</div>
 
-  <!-- 自适应主页背景大图 -->
-  
-    <script>
-        var img = new Image();
-        var intrologodiv = document.getElementById("intrologo");
-        img.src = intrologodiv.style.backgroundImage.replace('url(','').replace(')','').replace(/\"/gi, "");
-        img.onload=function(){
-          if (img.width / img.height <= document.body.clientWidth / document.body.clientHeight) {
-            intrologodiv.style.backgroundSize = "100% auto";
-          } else {
-            intrologodiv.style.backgroundSize = "auto 100%";
-          }
-        };
-    </script>
- 
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
 
- <!-- home_logo_image居中 -->
- 
-    <script>
-        var homelogodiv = document.getElementById("homelogo");
-        if (document.all.homelogo.offsetWidth > document.body.clientWidth) {
-          homelogodiv.style.width = document.body.clientWidth + "px";
-          homelogodiv.style.marginLeft = document.body.clientWidth * -0.5 + "px";
-        } else {
-          homelogodiv.style.width = homelogodiv.clientWidth  + "px";
-          homelogodiv.style.marginLeft = (homelogodiv.clientWidth)  * -0.5 + "px";
-        }
-    </script>
+<nav class="site-nav">
   
 
-  <div class="intro-navigate">
-      <p class="navigater-list">
-        
-          <a id="beautifont" class="main-nav-link" href="/">Home</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/archives">Archives</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/categories">Categorías</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/tags">Tags</a>
-        
-          <a id="beautifont" class="main-nav-link" href="/about">About</a>
-        
-      </p>
-  </div>
-
-</header>
   
-  <div id="container">
-    <div id="wrap">
+    <ul id="menu" class="menu">
       
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
             
-      <div id="content" class="outer">
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Startseite
+          </a>
+        </li>
+      
         
-          <section id="main" style="float:none;">
-  
-    <article id="post-Justinian-已经彻底为休谟的人性观所折服"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
-    
-    
-      <header class="article-header">
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archiv
+          </a>
+        </li>
+      
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2013/12/21/Justinian-已经彻底为休谟的人性观所折服/">已经彻底为休谟的人性观所折服</a>
-    </h1>
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
   
 
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2013/12/21/Justinian-已经彻底为休谟的人性观所折服/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2013/12/21/Justinian-已经彻底为休谟的人性观所折服/" itemprop="url">
+                  已经彻底为休谟的人性观所折服
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2013-12-21T17:16:13+08:00">
+              2013-12-21
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-12T12:36:52+08:00">
+              2015-11-12
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Justinian/" itemprop="url" rel="index">
+                    <span itemprop="name">Justinian</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2013/12/21/Justinian-已经彻底为休谟的人性观所折服/" class="article-date">
-	  <time datetime="2013-12-21T09:16:13.000Z" itemprop="datePublished">2013-12-21</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Justinian/">Justinian</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p>休谟《道德原理研究》中：</p>
+
+      
+        
+          
+            <p>休谟《道德原理研究》中：</p>
 <blockquote>
 <p>“有一个原则据认为在很多人中流行，它与一切德行或道德情感完全不相容；因为它只能出自最堕落的倾向。这个原则就是：一切仁慈都完全是虚伪的，友谊只是一种欺骗，公益精神是滑稽可笑的，忠诚只是为获得信任的一种诡计；既然我们归根结底只追求自己的私利，于是我们就披上这些绚丽的伪装，为的是使他人去掉戒心，使他们更深地陷入我们的欺骗与诡计之中。对于持这种原则的人，对于其内在情感与这种恶毒理论毫无二致的人，他应有何种心灵是很容易想见的。而且他那样丑陋地对待他人，那样地忘恩负义不知善报，他对他人会有何种程度的爱和仁慈就很容易想见了。”</p>
 </blockquote>
@@ -235,48 +356,145 @@
 <p>休谟认为，上述错误观点指出，人的仁慈行为“完全”、“彻底”由人的利己心引发。休谟肯定人是利己的，但人同时有仁慈心，仁慈心是人性中绝对存在的一部分，即便它在某个个体中微小至极，但也会在某些时候引导这个人的行动。</p>
 <p>已经彻底为休谟的人性观所折服。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hume/">Hume</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Diary-11-11-20-踽踽而行"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2011/11/20/Diary-11-11-20-踽踽而行/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2011/11/20/Diary-11-11-20-踽踽而行/">踽踽而行于人行道中</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2011/11/20/Diary-11-11-20-踽踽而行/" itemprop="url">
+                  踽踽而行于人行道中
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-11-20T23:12:00+08:00">
+              2011-11-20
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-11T12:38:50+08:00">
+              2015-11-11
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Diary/" itemprop="url" rel="index">
+                    <span itemprop="name">Diary</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2011/11/20/Diary-11-11-20-踽踽而行/" class="article-date">
-	  <time datetime="2011-11-20T15:12:00.000Z" itemprop="datePublished">2011-11-20</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Diary/">Diary</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p>踽踽而行于人行道中，我们是否也就像万物生灵一般，遵循生命的自然规律，出生，发育，觅食，交配，生子，最后老死。</p>
+
+      
+        
+          
+            <p>踽踽而行于人行道中，我们是否也就像万物生灵一般，遵循生命的自然规律，出生，发育，觅食，交配，生子，最后老死。</p>
 <p>我们与被我们所看作低等的自然万物的不同，唯独是也许只有我们会思考而它们被认为不会，于是我们能在自然赋予的物质基础上创造，创造思想，创造万物。</p>
 <p>基于此，如果苟活于世，不思创造，追随茫茫人流，漂泊度日，挣钱觅食，结婚生子，平凡终老，我们又与所谓低等的自然生灵何异。</p>
 <p>或许是自然的道德伦理要求我们遵循如此的行径，可它只是给我们提供了基本的生存框架，我们仿效之，可以维持生存；可如果我们仅仅是仿效，我们便是底线人群，便与所谓低等动物无异，与行尸走肉无异。</p>
@@ -286,46 +504,145 @@
 <p>还有其它千万种职业，他们在创造，他们是人类的脊梁。</p>
 <p>所以啊，不想仅满足于以自然生命之名生存，想要创造，想要改变，不管在哪个领域，不管程度深浅，但或许会说，按最平庸的生存方式生存，为社会创造些许财富，同样也是在推动社会发展。不可，那太少了，物质之作用永远不能与意识形态相比较，只有思想的创造才是真的创造，即使仅仅是自我内心的心的成长。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
+
+    <div>
       
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Justinian-法的形而上学"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2011/03/14/Justinian-法的形而上学/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2011/03/14/Justinian-法的形而上学/">法的形而上学</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2011/03/14/Justinian-法的形而上学/" itemprop="url">
+                  法的形而上学
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-03-14T20:20:25+08:00">
+              2011-03-14
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-11T12:06:50+08:00">
+              2015-11-11
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Justinian/" itemprop="url" rel="index">
+                    <span itemprop="name">Justinian</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2011/03/14/Justinian-法的形而上学/" class="article-date">
-	  <time datetime="2011-03-14T12:20:25.000Z" itemprop="datePublished">2011-03-14</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Justinian/">Justinian</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p>法的形而上学力求揭示两个基本问题，其一是法的实然性，即探求法的正当性问题；其二是法的应然性，即探求如何实现正确的法。近代自然法学派在探求这两个问题中历经了一段较长的历史时期。</p>
+
+      
+        
+          
+            <p>法的形而上学力求揭示两个基本问题，其一是法的实然性，即探求法的正当性问题；其二是法的应然性，即探求如何实现正确的法。近代自然法学派在探求这两个问题中历经了一段较长的历史时期。</p>
 <p>1、神学自然法</p>
 <p>（1）奥古斯丁——柏拉图传统</p>
 <p>奥古斯丁将法律分为永恒法、自然法和人定法，其中永恒法属于神法，它不随时间的流逝而改变，是世间万物的最高准则，人们必须遵守并执行上帝的永恒法，这样的社会才能达到有序和稳定。“自然法也由神所制定，存在于人类的心灵之中，是一种自然的道德规律。”（张培田，《外国法律思想史》）而关于人定法，由于永恒法与自然法是至善的，国家与人定法本无存在的必要性，但由于上帝在创造人类时赋予了其自由意志，人受物质的引诱犯下了原罪，由是产生了“恶”，因此要制定法律来对罪恶进行约束。国家与法产生后，其制定和运行必须受永恒法的约束和指引。</p>
@@ -344,94 +661,288 @@
 <p>（2）先验秩序与理性——洛克的尝试</p>
 <p>洛克设想人们生活在一个完备无缺的自然状态中，由于自然法的指引，人们过着一种无强制但非放任的共同生活，上天赋予每个人四项最基本的权利——生命、自由、平等和财产，鉴于自然法的抽象性，人们同意相互订立契约，制定明文之法律，确认人享有的基本权利，并同意建立保证法律实施的权威、公正的裁判机构和裁判的执行机构。因此在洛克看来法律的本体在于“权利”，而法律的结构在于“维系权利得以保障的系统”。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jurisprudence/">jurisprudence</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Reading-11-03-13"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2011/03/13/Reading-11-03-13/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2011/03/13/Reading-11-03-13/">萨义德摘抄——关于知识分子</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2011/03/13/Reading-11-03-13/" itemprop="url">
+                  萨义德摘抄——关于知识分子
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-03-13T23:22:19+08:00">
+              2011-03-13
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-12T18:48:12+08:00">
+              2015-11-12
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Reading/" itemprop="url" rel="index">
+                    <span itemprop="name">Reading</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2011/03/13/Reading-11-03-13/" class="article-date">
-	  <time datetime="2011-03-13T15:22:19.000Z" itemprop="datePublished">2011-03-13</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Reading/">Reading</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p>Quote:</p>
+
+      
+        
+          
+            <p>Quote:</p>
 <blockquote>
 <p>“知识分子既不是调节者，也不是建立共识者，而是这样一个人：他或她全身投注于批评意识，不愿接受简单的处分、现成的陈腔滥调，或迎合讨好、与人方便地肯定权势或者传统者的说法或做法。”<br>爱德华·沃第尔·萨义德《知识分子论》</p>
 </blockquote>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Said/">Said</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Justinian-历史的故事"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2011/03/13/Justinian-历史的故事/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2011/03/13/Justinian-历史的故事/">历史的故事</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2011/03/13/Justinian-历史的故事/" itemprop="url">
+                  历史的故事
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-03-13T23:19:53+08:00">
+              2011-03-13
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-12T12:37:00+08:00">
+              2015-11-12
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Justinian/" itemprop="url" rel="index">
+                    <span itemprop="name">Justinian</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2011/03/13/Justinian-历史的故事/" class="article-date">
-	  <time datetime="2011-03-13T15:19:53.000Z" itemprop="datePublished">2011-03-13</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Justinian/">Justinian</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>1、“无知”的开端</strong></p>
+
+      
+        
+          
+            <p><strong>1、“无知”的开端</strong></p>
 <p>苏格拉底之前，世界秩序的掌控者经历了一段历史变化时期，最初人们认为世界存在一种先验的、不可违抗的秩序，与自然规律有关，但并未对自然规律有所认识。其后，从希腊古典神话中可以看到，人们认为世界秩序是由众神掌控的，随后逐渐发展到名为上帝的一神。直接代表上帝的是教皇，教皇之下分两股势力，一是作为宗教势力的教会，二是作为政治势力的国王。人必须服从上帝，要与上帝对话，必须通过教会；国王之权力来自上帝，因而人类必然要对教会和国王绝对服从。</p>
 <p>苏格拉底并不这样认同，他是大智慧者，却说自己“所知道的就是自己一无所知”，然后走遍欧洲寻访各地有名的大智慧者，用一套所谓的诡辩术考倒了能找到的一切智慧者，但却加深了自己“一无所知”的体验，更深层次的含义，他向世界高喊：“认识你自己！（Know yourself!）”把哲学思考的本源从上帝转移到作为个体的人，他认为人拥有理性，世界秩序是人经过理性而创造的，人仍是上帝所造，但否认世界秩序完全由上帝所造。这是世界中作为个体的人理性的自我审视的开始。</p>
 <p><strong>2、“最终的实在”是什么——窗户的打开</strong></p>
@@ -447,48 +958,145 @@
 <p>亚父认为，特殊而非普遍的东西才是真实的。柏拉图认为物由理念型相和有形质料组合而成，亚里士多德则认为以理念型相作为哲学研究的第一对象毫无意义，他将此对象转变成“是者”。人是理性的动物，即是说人具有双重属性，一是理性即灵魂，二是动物即肉体，神同样并非理念，而是理性之化身，但其是“不动”的理性之化身。</p>
 <p>柏拉图的正义观认为国家可由哲学王来统治，可亚里士多德人认为多数人的智慧，或曰理性，能大于哲学王的智慧，由多数人的智慧能够组成民主政体并颁布法律，只要此法律符合两个要件：一是此法律是权衡、中道之良法；二是此法律能够得到普遍的服从与遵守，那么这样的民主政体便是一个可称之为“法治”的政体，这便是最早的法治概念。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jurisprudence/">jurisprudence</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Justinian-自然法的分析方法"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2010/11/21/Justinian-自然法的分析方法/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2010/11/21/Justinian-自然法的分析方法/">自然法的分析方法</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2010/11/21/Justinian-自然法的分析方法/" itemprop="url">
+                  自然法的分析方法
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-11-21T23:14:22+08:00">
+              2010-11-21
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-12T11:44:20+08:00">
+              2015-11-12
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Justinian/" itemprop="url" rel="index">
+                    <span itemprop="name">Justinian</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2010/11/21/Justinian-自然法的分析方法/" class="article-date">
-	  <time datetime="2010-11-21T15:14:22.000Z" itemprop="datePublished">2010-11-21</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Justinian/">Justinian</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>一 、古代自然法观念的形成</strong></p>
+
+      
+        
+          
+            <p><strong>一 、古代自然法观念的形成</strong></p>
 <p>1、“和自然相一致地生活”</p>
 <p>在古希腊思想家看来，万事万物都是有规律和秩序的，不仅自然界存在着规则，社会之间、民族之间、个人之间的关系也都有它们先前已经确立的秩序。这个秩序或者叫做“自然法”，或者叫做“理性”，有待于人们用智慧去发现。</p>
 <p>人们相信世界是由神所统治的，神创造了先天秩序，而人是先天秩序下的现实秩序。古希腊对“法”的探究所使用的是形而上的分析方法，即从现象中探求一般的规律。柏拉图认为“法”是先天（先验）的，他欲将现实秩序归为由先天秩序（logos，自然法）所造，人类应与自然相一致的生活，所以他设想出遵循先天秩序的——理想国。</p>
@@ -525,46 +1133,126 @@
 <p>问题二：这些规范获得认可以后，怎样来运用？</p>
 <p>问题三：需要国家进行认可的法律，其具体内容是什么？</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jurisprudence/">jurisprudence</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/natural-law/">natural law</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Justinian-据说的马克思"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2010/10/24/Justinian-据说的马克思/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2010/10/24/Justinian-据说的马克思/">据说的马克思</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2010/10/24/Justinian-据说的马克思/" itemprop="url">
+                  据说的马克思
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-10-24T22:12:00+08:00">
+              2010-10-24
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-12T11:46:34+08:00">
+              2015-11-12
+            </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2010/10/24/Justinian-据说的马克思/" class="article-date">
-	  <time datetime="2010-10-24T14:12:00.000Z" itemprop="datePublished">2010-10-24</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p>我国现有的法理学分析框架一直沿袭前苏联的模式，即用马克思主义的方法论来研究法理学，在教科书的编排与目录中处处散发着马克思主义的味道。</p>
+
+      
+        
+          
+            <p>我国现有的法理学分析框架一直沿袭前苏联的模式，即用马克思主义的方法论来研究法理学，在教科书的编排与目录中处处散发着马克思主义的味道。</p>
 <p><strong>一、据说的马克思</strong></p>
 <p>1、阶级性。据说马克思说，阶级性是国家的根本属性，国家的法律反映的是统治阶级的利益和要求。这并不代表马克思的真实想法，或者说马克思从未说过这样的话，这些话以及马克思主义中的阶级性都是恩格斯说出来的。恩格斯说：“你们资产阶级的法律，只是代表你们资产阶级的意志而已。”这就是所谓阶级性的来源，与马克思相比，恩格斯的水平差得实在太远，于是会经常说出一些毫无道理的话来，构成了马克思主义中的很多糟粕。</p>
 <p>2、经济基础决定论。马克思主义说，经济基础决定上层建筑。这是一句废话，也不是马克思而是恩格斯说的。经济基础能决定上层建筑并没有错，可人间万物无不是由经济基础决定的，人们能吃上饭，是由经济基础决定的，人们能参加娱乐活动，是由经济基础决定的，等等，这种放之四海皆准之道理就不算什么道理。</p>
@@ -601,96 +1289,290 @@
 <p>此时，法具有了两重性质，一是规律性，二是意志性。</p>
 <p>7、“法的关系是一种反映社会经济基础的意志关系。”</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Marx/">Marx</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jurisprudence/">jurisprudence</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Justinian-知识之过程"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2010/10/24/Justinian-知识之过程/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2010/10/24/Justinian-知识之过程/">知识之过程</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2010/10/24/Justinian-知识之过程/" itemprop="url">
+                  知识之过程
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-10-24T22:00:35+08:00">
+              2010-10-24
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-12T12:37:36+08:00">
+              2015-11-12
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Justinian/" itemprop="url" rel="index">
+                    <span itemprop="name">Justinian</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2010/10/24/Justinian-知识之过程/" class="article-date">
-	  <time datetime="2010-10-24T14:00:35.000Z" itemprop="datePublished">2010-10-24</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Justinian/">Justinian</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p>希腊神话故事向人们展示了古希腊时期人们对世界如何而来、如何运作所做的思考，古希腊时期人们所信奉的是一个诸神的世界，认为世界由许多个不一样的神所共同统治，神与神相互分工合作，共同维持神界与人界的秩序。</p>
+
+      
+        
+          
+            <p>希腊神话故事向人们展示了古希腊时期人们对世界如何而来、如何运作所做的思考，古希腊时期人们所信奉的是一个诸神的世界，认为世界由许多个不一样的神所共同统治，神与神相互分工合作，共同维持神界与人界的秩序。</p>
 <p>到了罗马时代，神被当作一种统治世界的权威，只有遵循神的旨意才能生存，神是威严而不可违抗的。</p>
 <p>到后来，人类的思维状态逐渐发展到了神话的边缘，通过各种诗歌来赞美神话，赞美由神所造就的这一个“logos”（逻格斯，即理性）的世界。</p>
 <p>一段时期之后，随着哲学的发展，人类开始重新思考自身在这个世界中的性质，哲学关注的对象由“神”转向了“人”，认为人可以利用自身特有的理性，通过自己的方式来预知结果，可以判断、揭示世界的logos。</p>
 <p>再后来，随着自然科学的出现和发展，神在人类心中的绝对地位开始逐渐降低，一直到现在。</p>
 <p>这是从古至今的知识之过程。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/history/">history</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Justinian-法理学和法哲学"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2010/10/17/Justinian-法理学和法哲学/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2010/10/17/Justinian-法理学和法哲学/">法理学和法哲学</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2010/10/17/Justinian-法理学和法哲学/" itemprop="url">
+                  法理学和法哲学
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-10-17T21:51:32+08:00">
+              2010-10-17
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-12T11:48:14+08:00">
+              2015-11-12
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Justinian/" itemprop="url" rel="index">
+                    <span itemprop="name">Justinian</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2010/10/17/Justinian-法理学和法哲学/" class="article-date">
-	  <time datetime="2010-10-17T13:51:32.000Z" itemprop="datePublished">2010-10-17</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Justinian/">Justinian</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>法哲学</strong></p>
+
+      
+        
+          
+            <p><strong>法哲学</strong></p>
 <p>在单词philosophy（哲学）一词中，在希腊文philo中代表“爱”，sophy代表“智慧”，因而哲学就是一门“爱智慧”的学问（love of wisdom）。</p>
 <p>法理学，也就是法哲学，是一门课程，但它不仅仅是一门课程，它除了教我们法学的一些基本理论，还教我们对法学问题的思考方法。法理学之所教并不都是“有用的”，传闻中国法学家、北京大学法学院院长、知名法理学教授朱苏力至今仍不会下锅做饭，但其在法理学上的造诣已为极高。由此可看法理学之所教并不都是我们现实意义上“有用”的知识，它或许能代表一些哲学，一些智慧。</p>
 <p><strong>法理学基本问题</strong></p>
@@ -708,48 +1590,145 @@
 <p>4、存在主义的路径</p>
 <p>存在主义之路径被誉为20世纪最有意思的路径，它探究法律如何“关注”我们的存在、“我”与“非我”的关系、被“抛入”的困惑等等，是最难的一条路径。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jurisprudence/">jurisprudence</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
+  </article>
 
-<!-- Table of Contents -->
+
+    
+      
 
   
-    <article id="post-Justinian-敖包相会——关于对法律之信仰"  class="article article-type-post" itemscope itemprop="blogPost" >
-  <div id="articleInner" class="article-inner">
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2010/10/13/Justinian-敖包相会——关于对法律之信仰/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Cz Mo">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.gif">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Winterreise">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="Winterreise" src="">
+    </span>
+  </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2010/10/13/Justinian-敖包相会——关于对法律之信仰/">敖包相会——关于对法律之信仰</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2010/10/13/Justinian-敖包相会——关于对法律之信仰/" itemprop="url">
+                  敖包相会——关于对法律之信仰
+                </a>
+              
+            
+          </h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-10-13T21:20:20+08:00">
+              2010-10-13
+            </time>
+
+            &nbsp;|&nbsp;
+
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-check-o"></i>
+            </span>
+            <time title="Post modified" itemprop="dateModified" datetime="2015-11-11T12:06:28+08:00">
+              2015-11-11
+            </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">in</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Justinian/" itemprop="url" rel="index">
+                    <span itemprop="name">Justinian</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+          
+          
+
+        </div>
       </header>
     
-    <div class="article-meta">
-      
-	<a href="/2010/10/13/Justinian-敖包相会——关于对法律之信仰/" class="article-date">
-	  <time datetime="2010-10-13T13:20:20.000Z" itemprop="datePublished">2010-10-13</time>
-	</a>
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
-    <a class="article-category-link" href="/categories/Justinian/">Justinian</a>
-
-    </div>
-    <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://7xo7zq.com1.z0.glb.clouddn.com/敖包相会-2010-10-13.jpg" alt=""></p>
+
+      
+        
+          
+            <p><img src="http://7xo7zq.com1.z0.glb.clouddn.com/敖包相会-2010-10-13.jpg" alt=""></p>
 <p>从前蒙古族里这样的一个故事：从前由于气候的原因，蒙古族人习惯在每年某个季节进行迁徙，但草原茫茫无际，族人为了在来年往回迁徙时能找到方向，迁徙时在自己的背包里都会放上一块石头，每到一个转弯的地方就放下石头，如此族人便不怕迷失方向。但一段时间过后，一些自私的族人认为，每个人迁徙时都会背上石头，假若自己不这样做，也不会有人知道，况且迁徙的路上作为路标的石头已经够多了，于是这些族人便不再背上石头。这个消息一传开，引来所有族人的效仿，从此再也没有人在迁徙时背石头。可草原茫茫无际，风沙频繁，石头容易被风化，原有的路标开始逐渐消失，族人于是很难找到回家的路。一位老者看到了这样的情况后很是悲伤，有一天他筑起了一个石堆，放以干草后点上火，跪下并向其祭拜。年轻的族人问老者为何而祭拜，老者回答说，我是在祭奠曾经为我们设置路标、方便我们寻找家园的先人们！年轻的族人们大受震动，纷纷仿效老者祭拜之，而后又重新背起了石头，追寻先人们走过的道路。</p>
 <p>一个好的制度在先人的努力下诞生，起初人人都会遵循。但是，每个人都是自私的，这自然导致了制度的消亡。可老者的行为唤醒了人们对先人的信仰，基于此等信仰，好的制度得以恢复。</p>
 <blockquote>
@@ -757,187 +1736,258 @@
 </blockquote>
 <p>我们正处于一个没有信仰的时代，所以在我国许多值得得不到人们很好的遵守，不比西方，他们信教，人权思想根深蒂固，因而对保障人权的各项制度基于信仰而遵守。</p>
 
+          
+        
       
     </div>
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jurisprudence/">jurisprudence</a></li></ul>
 
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
     </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-  
+  </article>
 
 
-  <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/9/">&laquo; Previo</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/11/">Siguiente &raquo;</a>
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/9/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/11/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
-</section>
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Cz Mo" />
+          <p class="site-author-name" itemprop="name">Cz Mo</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">101</span>
+              <span class="site-state-item-name">Artikel</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">Kategorien</span>
+              
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">81</span>
+                <span class="site-state-item-name">Tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
         
       </div>
-      
-        <div align="center" style="margin-top: 30px;"><hr class="hr" style="margin:0px; height:3px;"></div>
-      
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
   
-
-  <div class="container">
-      <div class="row">
-	      <p> Construido por <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
-	      <p id="copyRightEn">Copyright &copy; 2009 - 2016 Winterreise All Rights Reserved.</p>
-	      <p id="copyRightCn">Cz Mo hold copyright</p>
-	</div>
-  </div>
-</footer>
-
-
-<!-- min height -->
-
-<script>
-    var wrapdiv = document.getElementById("wrap");
-    var contentdiv = document.getElementById("content");
-
-    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
-    contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("allheader").offsetHeight - document.getElementById("footer").offsetHeight + "px";
-</script>
-    </div>
-    <!-- <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-    <a href="/categories" class="mobile-nav-link">Categories</a>
-  
-    <a href="/tags" class="mobile-nav-link">Tags</a>
-  
-    <a href="/about" class="mobile-nav-link">About</a>
-  
-</nav> -->
-    
-
-<!-- mathjax config similar to math.stackexchange -->
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    });
-</script>
-
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for(i=0; i < all.length; i += 1) {
-            all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-    });
-</script>
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-<script src="/js/bootstrap.js"></script>
-
-
-  <script src="/js/home.js"></script>
-
-
-
-
-
-
-
-
-  </div>
-
-  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h2 class="modal-title" id="myModalLabel">设置</h2>
-      </div>
-      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
-      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
-
-
-      <div class="modal-body">
-          <div style="margin:6px;">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" onclick="javascript:setFontSize();" aria-expanded="true" aria-controls="collapseOne">
-              正文字号大小
-            </a>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-          <div class="panel-body">
-            您已调整页面字体大小
-          </div>
-        </div>
-      
-
-
-          <div style="margin:6px;">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" onclick="javascript:setBackground();" aria-expanded="true" aria-controls="collapseTwo">
-              夜间护眼模式
-            </a>
-        </div>
-          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-          <div class="panel-body">
-            夜间模式已经开启，再次单击按钮即可关闭 
-          </div>
-        </div>
-
-        <div>
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关 于&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        </div>
-         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-          <div class="panel-body">
-            Winterreise
-          </div>
-          <div class="panel-body">
-            Copyright © 2016 Cz Mo All Rights Reserved.
-          </div>
-        </div>
-      </div>
-
-
-      <hr style="margin-top:0px; margin-bottom:0px; width:80%; border-top: 1px solid #000;">
-      <hr style="margin-top:2px; margin-bottom:0px; width:80%; border-top: 3px solid #000;">
-      <div class="modal-footer">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-      </div>
-    </div>
-  </div>
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Cz Mo</span>
 </div>
-  <a id="rocket" href="#top" class=""></a>
-  <script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
+
+
+<div class="powered-by">
+  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Muse
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
   
 
-	<div style="display: none;">
-    <script src="https://s95.cnzz.com/z_stat.php?id=1260716016&web_id=1260716016" language="JavaScript"></script>
-  </div>
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
 
 
 </body>
