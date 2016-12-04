@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-12-04T04:51:14.000Z</updated>
+  <updated>2016-12-04T04:54:02.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,14 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2016/12/04/Diary-16-12-05-%E8%80%83%E8%AF%95/"/>
-    <id>http://yoursite.com/2016/12/04/Diary-16-12-05-考试/</id>
-    <published>2016-12-04T04:48:16.000Z</published>
-    <updated>2016-12-04T04:51:14.000Z</updated>
+    <title>考试</title>
+    <link href="http://yoursite.com/2016/12/05/Diary-16-12-05-%E8%80%83%E8%AF%95/"/>
+    <id>http://yoursite.com/2016/12/05/Diary-16-12-05-考试/</id>
+    <published>2016-12-04T16:00:00.000Z</published>
+    <updated>2016-12-04T04:54:02.000Z</updated>
     
-    <content type="html"><![CDATA[<p>date: 2016-12-5<br>title: 考试<br>categories: Diary<br>tags: CPA</p>
-<p><img src="http://7xo8bt.com1.z0.glb.clouddn.com/2016-CPA.png" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="http://7xo8bt.com1.z0.glb.clouddn.com/2016-CPA.png" alt=""></p>
 <p>来之不易的税法成绩。</p>
 <p>全面营改增加入考试大纲前的最后一年，享受免考营业税、仅考小部分营改增的特殊时期待遇，如果今年还过不了，明年的压力真的巨大。</p>
 <p>长年考试带来的问题，压力只是其中一部分。更大的问题是，你无暇再去关注行业前沿，无暇深入学习专业及专业外知识。</p>
@@ -33,11 +32,16 @@
     
     <summary type="html">
     
-      &lt;p&gt;date: 2016-12-5&lt;br&gt;title: 考试&lt;br&gt;categories: Diary&lt;br&gt;tags: CPA&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://7xo8bt.com1.z0.glb.clouddn.com/2016-CPA.png&quot; alt=&quot;
+      &lt;p&gt;&lt;img src=&quot;http://7xo8bt.com1.z0.glb.clouddn.com/2016-CPA.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;来之不易的税法成绩。&lt;/p&gt;
+&lt;p&gt;全面营改增加入考试大纲前的最后一年，享受免考营业税、仅考小部分营改增的特殊时期待遇，
     
     </summary>
     
+      <category term="Diary" scheme="http://yoursite.com/categories/Diary/"/>
+    
+    
+      <category term="CPA" scheme="http://yoursite.com/tags/CPA/"/>
     
   </entry>
   
