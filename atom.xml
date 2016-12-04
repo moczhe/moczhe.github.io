@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-11-21T14:33:40.000Z</updated>
+  <updated>2016-12-04T04:51:14.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2016/12/04/Diary-16-12-05-%E8%80%83%E8%AF%95/"/>
+    <id>http://yoursite.com/2016/12/04/Diary-16-12-05-考试/</id>
+    <published>2016-12-04T04:48:16.000Z</published>
+    <updated>2016-12-04T04:51:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>date: 2016-12-5<br>title: 考试<br>categories: Diary<br>tags: CPA</p>
+<p><img src="http://7xo8bt.com1.z0.glb.clouddn.com/2016-CPA.png" alt=""></p>
+<p>来之不易的税法成绩。</p>
+<p>全面营改增加入考试大纲前的最后一年，享受免考营业税、仅考小部分营改增的特殊时期待遇，如果今年还过不了，明年的压力真的巨大。</p>
+<p>长年考试带来的问题，压力只是其中一部分。更大的问题是，你无暇再去关注行业前沿，无暇深入学习专业及专业外知识。</p>
+<p>上学时我能习惯逛Totoo、Legalboats；习惯关注校内讲座；习惯看TED、听专业外各类公开课。上班后，工作与考试压力重叠，这些活动基本上都停止了，导致的结果是，职业眼光比上学时还低，曾经的职业理想逐渐褪色消逝。</p>
+<p>解决的办法是，一如继往地断绝无必要的休闲娱乐活动，勤加反思，着手改变。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;date: 2016-12-5&lt;br&gt;title: 考试&lt;br&gt;categories: Diary&lt;br&gt;tags: CPA&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://7xo8bt.com1.z0.glb.clouddn.com/2016-CPA.png&quot; alt=&quot;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>11.21</title>
@@ -869,33 +895,6 @@
     
     
       <category term="Mozart" scheme="http://yoursite.com/tags/Mozart/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>读《“我看不看，和文章长不长没关系。”》</title>
-    <link href="http://yoursite.com/2015/08/26/Reading-15-08-26/"/>
-    <id>http://yoursite.com/2015/08/26/Reading-15-08-26/</id>
-    <published>2015-08-26T15:44:00.000Z</published>
-    <updated>2015-11-12T08:24:36.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Quote:</p>
-<blockquote>
-<p>我很少给人荐书，因为阅读是私密的体验。我之蜜糖，没准是彼之砒霜。推荐了好书之后，过阵子发现朋友并没有去读双方多少都有点尴尬。阅读的时候，就应该和作者一个人去交流，如果嫌作者废话太多，可以随时中断这种交流而并不是不当的行为。如果作者讲得好，有吸引力，再去接着读第二本第三本也是人之常情。这有点像谈恋爱，仅仅是两个人之间的事，而且并不是一种契约关系。那我点开一篇文章，和我翻开一本书一样，也许不合我的口味，我终止阅读，也是无可厚非的。（<a href="http://www.15yan.com/topic/bian-ji-tui-jian/7ljQjpoHNip/" target="_blank" rel="external">《“我看不看，和文章长不长没关系。”》</a>）</p>
-</blockquote>
-<p>想起大三大四那会，逐渐不如以前那样爱给朋友强推音乐，堂而皇之的理由是，“把喜欢的曲子歌谣推荐给外人，就跟强迫自己心爱的姑娘到街头卖艺一样。”</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Quote:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我很少给人荐书，因为阅读是私密的体验。我之蜜糖，没准是彼之砒霜。推荐了好书之后，过阵子发现朋友并没有去读双方多少都有点尴尬。阅读的时候，就应该和作者一个人去交流，如果嫌作者废话太多，可以随时中断这种交流而并不是不当的行为
-    
-    </summary>
-    
-      <category term="Reading" scheme="http://yoursite.com/categories/Reading/"/>
-    
     
   </entry>
   
